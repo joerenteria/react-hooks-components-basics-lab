@@ -16,6 +16,15 @@ function Home() {
   );
 }
 
+function About() {
+  return (
+    <div id="about">
+      <h1>About</h1>
+      <p>The About component should return a with an id of about. The div can also optionally have some additional text content and other elements inside — as long as it has an id of about, it will pass the test</p>
+    </div>
+  );
+}
+
 {/* write an <About> component here */}
 
 
@@ -23,8 +32,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      <Home />
+      <About />
     </div>
   );
 }
